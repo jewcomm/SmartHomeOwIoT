@@ -1,0 +1,4 @@
+repository "SmartHomeOwIoT@anavrotskiy@cloud"
+  path "/"
+    br "/main"
+    co "/main"
