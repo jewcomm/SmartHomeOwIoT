@@ -22,6 +22,7 @@ public class TriggerHandler : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        print("OnTriggerExit");
         Animator.SetBool("IsOpen", false);
     }
 }
