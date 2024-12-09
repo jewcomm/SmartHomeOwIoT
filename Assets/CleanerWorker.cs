@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor.XR;
 using UnityEngine;
 using UnityEngine.AI;
@@ -19,7 +20,6 @@ public class CleanerWorker : MonoBehaviour
     [SerializeField] private AudioSource repairSound;
 
     [SerializeField] private Image statusImage;
-
 
     private Transform[] targets;
     private int currentTargetIndex = 0;
